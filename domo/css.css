@@ -1,0 +1,4 @@
+     <center>
+     <div class="pre-spoiler">  
+       <input id="xs" value="Ver texto" style="margin-left: 50px; padding: 0px; width: 80px; font-size: 14px; font-family: trebuchet ms;" onclick=    "if(this.parentNode.getElementsByTagName('div')[0].style.display != ''){this.parentNode.getElementsByTagName('div')[0].style.display = '';this.value = 'Ocultar texto';}else{this.parentNode.getElementsByTagName('div')[0].style.display = 'none'; this.value = 'Ver texto';}"    type="button" />  
+         <div class="spoiler" style="display: none;">      Aquí ponemos la parte que queremos ocultar </div></div></center>
